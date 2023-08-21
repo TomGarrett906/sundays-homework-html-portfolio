@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+body {
+    background-color: rgb(33, 28, 65);
+}
+
+header {
+    background-color: navy;
+    border-bottom: 3px solid darkorange;
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer {
+    background-color: navy;
+    border-top: 3px solid darkorange;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+article {
+    color: black;
+    background-color: darkorange;
+    margin: 0 auto 20px;
+    border: 3px solid white;
+    padding: 50px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+nav {
+    list-style: none;
+    color: white;
+
+}
+
+.nav-bar, .nav-link {
+    display: inline;
+    color: white;
+}
+
+#brand-title{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+a {
+    color: darkorange;
+    padding: 5px;
+    text-decoration: none;    
+}
+
+a:hover {
+    color: white;
+}
+
+button {
+    color: navy;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 15%;
+    
+}
+
+button:hover {
+    color: beige;
+    background-color: navy;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    border: 2px dotted navy;
+    width: 30%;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 10px;
+}
+
+.form-label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#profile-picture {
+    border-radius: 40%;
+    border: 2px solid white;
+    width: 25%;
+    height: 25%;
+}
+
+#midi {
+    border-radius: 30%;
+    border: 2px solid white;
+    width: 10%;
+    height: 10%;
+}
+
+
+h2 {
+    margin: 10px;
+}
+
+h3 {
+    text-align: left;
+    margin: 10px;
+}
+
+p {
+    text-indent: 25px;
+    text-align: left;
+    text-align: justify;
+}
